@@ -1,0 +1,45 @@
+[Diszno helikopter]
+ExplodeType = 3
+Model = objects\06 Tereptargyak\Ufo.4D
+
+ Character = P10-Helikopter
+ Voice = P11-Helikopter
+ Icon = d_helikopter
+
+MaxHP = 100
+Sight = 30
+
+UnitType = 1
+Selectable = 1
+MoveType = 3
+MoveSpeed = 3
+WheelSpeed = 0.1
+EngineSound = engine/helikopter.wav
+Damage = 9999
+Damageradius = 999.99
+SpringStrength = 1.5
+SpringDecay = 0.1
+SpringScale = -1.5
+
+Ghost_Texture = Pig_ghosts\helikopteres1.tga
+ShotType = 2
+TurretSpeed = 40
+Ammo = 999
+AmmoValue = 2
+ShotSound = shoot\mozsar.wav
+Projectile = UFObads
+ReloadTime = 0.01
+ShotEffect = 4
+ShotSpread = 1.5
+ShotAngle = 25
+ShotHeight = 0.6
+ShotSpeed = 9.99
+MaxRange = 29
+
+[UFObads]
+CollisionSphere = 9.9
+SmokeColor = 0x00FF00
+SmokeStrength = 2
+SmokeFadeSpeed = 0.01
+SmokeScale = 0.01
+ExplodeSound = explode\impact.wav
